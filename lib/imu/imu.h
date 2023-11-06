@@ -13,4 +13,6 @@ void IMU_WriteRegister(uint8_t regAddr, uint8_t regVal);
 
 uint8_t IMU_ReadRegister(uint8_t regAddr);
 
+void IMU_Init();
+
 #endif

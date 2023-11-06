@@ -5,6 +5,7 @@
 //
 
 #include "main.h"
+#include "mux.h"
 
 #define I2C_MUX_ADDR	112
 #define I2C_MUX_TIMEOUT	10

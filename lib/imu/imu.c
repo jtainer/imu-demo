@@ -5,6 +5,7 @@
 //
 
 #include "main.h"
+#include "imu.h"
 
 #define I2C_IMU_ADDR	0b01101000
 #define I2C_IMU_TIMEOUT	10
