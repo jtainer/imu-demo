@@ -23,7 +23,7 @@ void setup(void) {
 
 void loop(void) {
 	MPU6050_Read_All(&hi2c1, &imu[0]);
-	printf("Ax = %d\tAy = %d\t Az = %d\r\n",
+	printf("Ax = %f\tAy = %f\t Az = %f\r\n",
 		imu[0].Ax, imu[0].Ay, imu[0].Az);
 	HAL_Delay(100);
 }
