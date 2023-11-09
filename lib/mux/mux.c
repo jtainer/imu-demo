@@ -5,12 +5,11 @@
 //
 
 #include "main.h"
+#include "i2c.h"
 #include "mux.h"
 
 #define I2C_MUX_ADDR	112
 #define I2C_MUX_TIMEOUT	10
-
-extern I2C_HandleTypeDef hi2c1;
 
 void I2C_MUX_Init(void) {
 	// Hold multiplexer in reset while setting address lines
