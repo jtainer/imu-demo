@@ -23,7 +23,8 @@ void setup(void) {
 
 void loop(void) {
 	MPU6050_Read_All(&hi2c1, &imu[0]);
-	printf("Ax = %f\tAy = %f\t Az = %f\r\n",
-		imu[0].Ax, imu[0].Ay, imu[0].Az);
+	printf("Ang.x = %d\t\tAng.y = %d\t\tAcc.x = %d\t\tAcc.y = %d\t\tAcc.z = %d\r\n",
+		(int)imu[0].KalmanAngleX, (int)imu[0].KalmanAngleY,
+		(int)imu[0].Accel_X_RAW, (int)imu[0].Accel_Y_RAW, (int)imu[0].Accel_Z_RAW);
 	HAL_Delay(100);
 }
