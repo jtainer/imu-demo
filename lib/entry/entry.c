@@ -30,5 +30,5 @@ void loop(void) {
 		(int)imu[0].KalmanAngleX, (int)imu[0].KalmanAngleY,
 		(int)imu[0].Accel_X_RAW, (int)imu[0].Accel_Y_RAW, (int)imu[0].Accel_Z_RAW);
 //	ssd1306_Fill(screen_on ? White : Black);
-	HAL_Delay(100);
+	HAL_Delay(10);
 }
