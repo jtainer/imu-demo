@@ -1,7 +1,7 @@
 // 
 // Driver for I2C multiplexer
 //
-// 2023, Jonathan Tainer
+// Copyright (c) 2023 Jonathan Tainer
 //
 
 #ifndef I2C_MUX_H

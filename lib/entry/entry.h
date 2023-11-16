@@ -3,7 +3,7 @@
 // 'setup' is called once after device reset
 // 'loop' is called repeatedly
 //
-// 2023, Jonathan Tainer
+// Copyright (c) 2023 Jonathan Tainer
 //
 
 #ifndef USER_ENTRY_POINT
