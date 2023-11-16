@@ -1,7 +1,7 @@
 // 
 // Driver for MPU6050 IMU
 //
-// 2023, Jonathan Tainer
+// Copyright (c) 2023 Jonathan Tainer
 //
 
 #include "main.h"
