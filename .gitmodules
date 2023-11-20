@@ -1,6 +1,6 @@
 [submodule "external/MPU6050"]
 	path = external/MPU6050
-	url = https://github.com/leech001/MPU6050
+	url = https://github.com/jtainer/MPU6050
 [submodule "external/stm32-ssd1306"]
 	path = external/stm32-ssd1306
 	url = https://github.com/afiskon/stm32-ssd1306
