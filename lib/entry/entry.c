@@ -26,9 +26,9 @@ void loop(void) {
 	static int screen_on = 0;
 	screen_on = !screen_on;
 	MPU6050_Read_All(&hi2c1, &imu[0]);
-	printf("Ang.x = %d\t\tAng.y = %d\t\tAcc.x = %d\t\tAcc.y = %d\t\tAcc.z = %d\r\n",
-		(int)imu[0].KalmanAngleX, (int)imu[0].KalmanAngleY,
-		(int)imu[0].Accel_X_RAW, (int)imu[0].Accel_Y_RAW, (int)imu[0].Accel_Z_RAW);
+	printf("w = %d\t\tx = %d\t\ty = %d\t\tz = %d\n",
+		(int)imu[0].rotation.w, (int)imu[0].rotation.x,
+		(int)imu[0].rotation.y, (int)imu[0].rotation.z);
 //	ssd1306_Fill(screen_on ? White : Black);
 	HAL_Delay(10);
 }
